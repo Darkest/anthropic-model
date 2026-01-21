@@ -1,6 +1,6 @@
-package anthropic
+package io.github.darkest.anthropic
 
-import anthropic.model.*
+import io.github.darkest.anthropic.model.*
 import io.circe.syntax.*
 import io.circe.parser.*
 import org.scalatest.flatspec.AnyFlatSpec

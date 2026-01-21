@@ -14,8 +14,8 @@ Scala 3 models for the [Anthropic API](https://docs.anthropic.com/en/api) using 
 ## Usage
 
 ```scala
-import anthropic.model.*
-import anthropic.Endpoints
+import io.github.darkest.anthropic.model.*
+import io.github.darkest.anthropic.Endpoints
 
 // Create a request
 val request = MessagesRequest(

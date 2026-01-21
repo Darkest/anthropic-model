@@ -1,4 +1,4 @@
-package anthropic.model
+package io.github.darkest.anthropic.model
 
 import io.circe.*
 import io.circe.generic.extras.semiauto.*

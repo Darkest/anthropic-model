@@ -1,6 +1,6 @@
-package anthropic
+package io.github.darkest.anthropic
 
-import anthropic.model.*
+import io.github.darkest.anthropic.model.*
 import sttp.tapir.*
 import sttp.tapir.json.circe.*
 import sttp.tapir.generic.auto.*

@@ -1,8 +1,26 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
-
 ThisBuild / scalaVersion := "3.3.4"
+ThisBuild / organization := "io.github.darkest"
 
-ThisBuild / organization := "com.darkest"
+// Publishing settings (sbt-ci-release manages version automatically)
+ThisBuild / homepage := Some(url("https://github.com/darkest/anthropic-model"))
+ThisBuild / licenses := List("Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0"))
+ThisBuild / developers := List(
+  Developer(
+    id = "darkest",
+    name = "Your Name",
+    email = "your.email@example.com",
+    url = url("https://github.com/darkest")
+  )
+)
+ThisBuild / scmInfo := Some(
+  ScmInfo(
+    url("https://github.com/darkest/anthropic-model"),
+    "scm:git@github.com:darkest/anthropic-model.git"
+  )
+)
+
+// Sonatype publishing
+ThisBuild / sonatypeCredentialHost := "central.sonatype.com"
 
 val tapirVersion = "1.11.11"
 val circeVersion = "0.14.10"

@@ -1,4 +1,4 @@
-package anthropic
+package io.github.darkest.anthropic
 
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
