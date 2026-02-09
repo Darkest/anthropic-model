@@ -7,9 +7,9 @@ ThisBuild / licenses := List("Apache-2.0" -> url("https://www.apache.org/license
 ThisBuild / developers := List(
   Developer(
     id = "darkest",
-    name = "Your Name",
-    email = "your.email@example.com",
-    url = url("https://github.com/darkest")
+    name = "Dmitrii Pevunov",
+    email = "elster2005@example.com",
+    url = url("https://github.com/Darkest")
   )
 )
 ThisBuild / scmInfo := Some(
