@@ -70,3 +70,5 @@ hs_err_pid*
 .bloop/
 project/metals.sbt
 
+.bsp/
+
