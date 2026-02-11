@@ -1,5 +1,6 @@
 ThisBuild / scalaVersion := "3.3.4"
 ThisBuild / organization := "io.github.darkest"
+ThisBuild / description := "Type-safe Scala 3 models for the Anthropic API using Tapir and Circe"
 
 // Publishing settings (sbt-ci-release manages version automatically)
 ThisBuild / homepage := Some(url("https://github.com/darkest/anthropic-model"))
@@ -7,9 +8,9 @@ ThisBuild / licenses := List("Apache-2.0" -> url("https://www.apache.org/license
 ThisBuild / developers := List(
   Developer(
     id = "darkest",
-    name = "Your Name",
-    email = "your.email@example.com",
-    url = url("https://github.com/darkest")
+    name = "Dmitrii Pevunov",
+    email = "elster2005@example.com",
+    url = url("https://github.com/Darkest")
   )
 )
 ThisBuild / scmInfo := Some(
